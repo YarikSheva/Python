@@ -1,0 +1,52 @@
+# Python HW_1
+
+# 1) Создать переменную типа String
+a = 'Yaroslav'
+# 2) Создать переменную типа Integer
+b = 30
+# 3) Создать переменную типа Float
+c = 14.5
+# 4) Создать переменную типа Bytes
+d = b'Music'
+# 5) Создать переменную типа List (списки)
+e = ['grape', 'tengerine', 'paneapple']
+# 6) Создать переменную типа Tuple (кортеж)
+f = ('flower', 'window', 'flat')
+# 7) Создать переменную типа Set (множество)
+g = {'love', 'date', 'married'}
+# 8. Создать переменную типа Frozen set (неизменяемоемножество)
+h = frozenset({'chicken', 'becon', ,beff'})
+# 9) Создать переменную типа Dict
+i = ('name': 'Yari', 'age': 30)
+# 10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
+print('Создать переменную типа String = ', type(a), a)
+print('Создать переменную типа Integer = ', type(b), b)
+print('Создать переменную типа Float = ', type(c), c)
+print('Создать переменную типа Bytes = ', type(d), d)
+print('Создать переменную типа List = ', type(e), e)
+print('Создать переменную типа Tuple = ', type(f), f)
+print('Создать переменную типа Set = ', type(g), g)
+print('Создать переменную типа Frozen set = ', type(h), h)
+print('Создать переменную типа Dict = ', type(i), i)
+
+# 11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
+first = 'West'
+second = 'side'
+last = first + second
+print('создать переменную в которой сканкатенируете эти переменные = ', last)
+
+# 12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
+bio = 'Shevchenko'
+sex = 'Maile'
+print('Вывести в одну строку переменные типа String и Integer используя “,” = ', bio, sex)
+# 13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
+focus = 80
+count = 'kilos'
+print('Вывести в одну строку переменные типа String и Integer используя “+” = ', str(focus) + ' ' + count)
+--Или еще один вариант: 
+temp = 'Deegrees'
+point = 36.6
+
+result = temp + ' ' + str(point)
+print(result)
+
